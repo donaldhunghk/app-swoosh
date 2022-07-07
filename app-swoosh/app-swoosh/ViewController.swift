@@ -15,10 +15,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        bgImg.frame = view.frame;
     }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue){
+        
     }
+    
+    
 }
 
